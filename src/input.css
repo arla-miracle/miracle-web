@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.navMenu::after {
+  @apply absolute -bottom-1 left-0 h-[2px] w-full bg-secondary rounded transition-all duration-1000 origin-center;
+  content: "";
+  transform: scaleX(0);
+}
+.navMenu:hover::after,
+.navMenu:focus::after {
+  transform: scaleX(1);
+}

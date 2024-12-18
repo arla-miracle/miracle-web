@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miracle</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- remix icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+
+    <!-- font logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-bodyColor">
+    <header>
+      <div class="container fixed z-10 top-0 left-0 right-0 w-4/5 mx-auto my-6 px-5 py-2 flex justify-between rounded-full border-2 border-secondary bg-bodyColor">
+        <div class="logo">
+          <a href="#hero" class="font-dancing text-xl font-extrabold text-primary md:text-2xl">Miracle.</a>
+        </div>
+        <div class="flex items-center">
+          <div id="hamburger" class="cursor-pointer hover:text-secondary transition-all lg:hidden">
+            <i class="ri-menu-4-line text-lg md:text-xl"></i>
+          </div>
+          <nav class="navbar transition-all duration-500 w-full rounded-3xl mt-12 p-5 absolute left-[100rem] right-0 top-0 shadow-lg backdrop-blur bg-[rgba(255,255,255,0.3)] lg:static lg:mt-0 lg:p-0 lg:bg-bodyColor lg:shadow-none">
+            <ul class="flex flex-col gap-5 text-primary text-center text-sm font-lato md:text-lg lg:flex-row lg:text-base">
+              <li class="navMenu relative group"><a href="#hero">Home</a></li>
+              <li class="navMenu relative group"><a href="#about" class="">About</a></li>
+              <li class="navMenu relative group"><a href="#portofolio">Portofolio</a></li>
+              <li class="navMenu relative group"><a href="#skills">Skills</a></li>
+              <li class="navMenu relative group"><a href="#service">Service</a></li>
+              <li class="navMenu relative group mb-5 lg:mb-0"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="container w-screen h-screen flex flex-col justify-between lg:grid lg:grid-cols-2 lg:w-full">
+          <div class="mt-40 mx-auto overflow-hidden rounded-full lg:mt-32 lg:w-fit">
+            <img src="src/img/img1.jpg" alt="img-cover" class="hover:scale-95 hover:rotate-6 transition-all duration-500 hover:border-2 hover:border-secondary rounded-full md:w-3/4 md:mx-auto lg:w-2/3" />
+          </div>
+          <div class="w-4/5 py-7 mx-auto lg:mt-0 lg:flex lg:justify-end lg:gap-40 lg:w-full lg:px-5 lg:items-center">
+            <div class="desc">
+              <h3 class="text-4xl mb-5 font-lato text-primary">Hi, I'm Arla</h3>
+              <p class="mb-9 font-lato font-light text-primary lg:mb-5">Frontend Developer from Indonesia</p>
+              <a
+                href="src/pdf/CV Febrianus Arif en.pdf"
+                download=""
+                target="_blank"
+                class="hidden lg:block lg:font-lato lg:text-sm lg:font-semibold lg:bg-blue lg:text-mywhite lg:py-1 lg:px-4 lg:w-fit lg:border-[1.5px] lg:border-blue lg:shadow-md lg:hover:shadow-secondary lg:rounded-full lg:hover:bg-secondary lg:hover:border-mywhite lg:hover:text-mywhite lg:transition-all lg:duration-700"
+                >Download CV</a
+              >
+            </div>
+            <div class="socialMedia flex justify-between lg:flex-col lg:justify-start lg:gap-5">
+              <a href="https://www.linkedin.com/in/febrianusarifmlaia/" target="_blank" class="text-3xl hover:text-secondary hover:scale-75 transition-all cursor-pointer duration-500 md:text-4xl lg:text-3xl">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/arlaaa_19/" target="_blank" class="text-3xl hover:text-secondary hover:scale-75 transition-all cursor-pointer duration-500 md:text-4xl lg:text-3xl">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://github.com/arla-miracle" target="_blank" class="text-3xl hover:text-secondary hover:scale-75 transition-all cursor-pointer duration-500 md:text-4xl lg:text-3xl">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="my-10 pt-10">
+        <div class="container lg:grid lg:grid-cols-2 lg:place-items-center">
+          <div class="imgSide w-4/5 overflow-hidden mx-auto">
+            <div class="m-5 w-fit">
+              <img src="src/img/img2.jpeg" alt="img-cover" class="md:w-3/4 md:mx-auto border-4 border-primary" />
+            </div>
+          </div>
+
+          <div class="contentAbout lg:w-4/5 lg:mx-auto">
+            <h2 class="text-center font-lato text-2xl my-5 md:text-3xl">About Me</h2>
+            <p class="text-center font-lato w-4/5 mx-auto md:text-lg lg:w-full text-primary">
+              Hello, I'm Arla, a front-end web developer from Indonesia with 1 year of experience. I specialise in using Tailwind CSS and Bootstrap to build responsive, modern, and aesthetically pleasing websites. I believe that simple and
+              functional design is the key to good user experience. If you need a web developer who can turn your idea into a professional website, I'm here to help!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="portofolio" class="mt-20 mb-0">
+        <div class="container">
+          <div class="contentPortofolio">
+            <h2 class="text-center font-lato text-2xl my-5 md:text-3xl">My Portofolio</h2>
+            <div class="lg:flex lg:flex-wrap lg:mx-5">
+              <div class="card w-4/5 md:w-3/4 mx-auto shadow-md shadow-primary bg-navy rounded-xl overflow-hidden text-white my-8 lg:w-[310px]">
+                <div class="video">
+                  <video controls>
+                    <source src="src/video/video1.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="p-3">
+                  <h3 class="font-lato text-xl font-semibold mb-1 text-semiMywhite md:text-2xl">DSS Vikor</h3>
+                  <p class="font-lato mx-auto text-xs text-semiMywhite md:text-sm">
+                    Decision support system application with VIKOR method that helps in selecting eligible candidates for aid recipients at the agriculture office of Padang city.
+                  </p>
+                </div>
+              </div>
+              <div class="card w-4/5 md:w-3/4 mx-auto shadow-md shadow-primary bg-navy rounded-xl overflow-hidden text-white my-8 lg:w-[310px]">
+                <div class="video">
+                  <video controls>
+                    <source src="src/video/video2.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="p-3">
+                  <h3 class="font-lato text-xl font-semibold mb-1 text-semiMywhite md:text-2xl">DSS Moora</h3>
+                  <p class="font-lato mx-auto text-xs text-semiMywhite md:text-sm">Decision support system application with MOORA method that helps in selecting prospective beneficiaries at the Padang city fisheries and food office</p>
+                </div>
+              </div>
+              <div class="card w-4/5 md:w-3/4 mx-auto shadow-md shadow-primary bg-navy rounded-xl overflow-hidden text-white my-8 lg:w-[310px]">
+                <div class="video">
+                  <video controls>
+                    <source src="src/video/video3.mp4" type="video/mp4" />
+                  </video>
+                </div>
+                <div class="p-3">
+                  <h3 class="font-lato text-xl font-semibold mb-1 text-semiMywhite md:text-2xl">Creative Website</h3>
+                  <p class="font-lato mx-auto text-xs text-semiMywhite md:text-sm">This is the first website that I made with a lot of passion and creativity.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="mt-20 mb-10">
+        <div class="container">
+          <div class="contentSkills">
+            <h2 class="text-center font-lato text-2xl my-5 md:text-3xl">My Skills</h2>
+            <div class="skill grid grid-cols-2 gap-5 md:grid-cols-3">
+              <div class="flex justify-center flex-col items-center">
+                <div class="border-2 border-primary size-max flex p-5 rounded-lg group hover:bg-primary hover:scale-90 cursor-pointer transition-all hover:ease-in-out duration-700">
+                  <i class="ri-html5-fill text-6xl lg:text-9xl text-primary text-center group-hover:animate-spin group-hover:text-mywhite transition-all group-hover:ease-in-out duration-700"></i>
+                </div>
+                <h3 class="text-center text-lg text-primary font-lato font-semibold mt-4 md:text-xl">HTML</h3>
+                <p class="text-center text-base font-lato font-light">Basic</p>
+              </div>
+              <div class="flex justify-center flex-col items-center">
+                <div class="border-2 border-primary size-max flex p-5 rounded-lg group hover:bg-primary hover:scale-90 cursor-pointer transition-all hover:ease-in-out duration-700">
+                  <i class="ri-css3-fill text-6xl lg:text-9xl text-primary text-center group-hover:animate-bounce group-hover:text-mywhite transition-all group-hover:ease-in-out duration-700"></i>
+                </div>
+                <h3 class="text-center text-lg text-primary font-lato font-semibold mt-4 md:text-xl">CSS</h3>
+                <p class="text-center text-base font-lato font-light">Basic</p>
+              </div>
+              <div class="flex justify-center flex-col items-center">
+                <div class="border-2 border-primary size-max flex p-5 rounded-lg group hover:bg-primary hover:scale-90 cursor-pointer transition-all hover:ease-in-out duration-700">
+                  <i class="ri-javascript-fill text-6xl lg:text-9xl text-primary text-center group-hover:animate-spin group-hover:text-mywhite transition-all group-hover:ease-in-out duration-700"></i>
+                </div>
+                <h3 class="text-center text-lg text-primary font-lato font-semibold mt-4 md:text-xl">JavaScript</h3>
+                <p class="text-center text-base font-lato font-light">Basic</p>
+              </div>
+              <div class="flex justify-center flex-col items-center">
+                <div class="border-2 border-primary size-max flex p-5 rounded-lg group hover:bg-primary hover:scale-90 cursor-pointer transition-all hover:ease-in-out duration-700">
+                  <i class="ri-php-line text-6xl lg:text-9xl text-primary text-center group-hover:animate-bounce group-hover:text-mywhite transition-all group-hover:ease-in-out duration-700"></i>
+                </div>
+                <h3 class="text-center text-lg text-primary font-lato font-semibold mt-4 md:text-xl">PHP</h3>
+                <p class="text-center text-base font-lato font-light">Basic</p>
+              </div>
+              <div class="flex justify-center flex-col items-center">
+                <div class="border-2 border-primary size-max flex p-5 rounded-lg group hover:bg-primary hover:scale-90 cursor-pointer transition-all hover:ease-in-out duration-700">
+                  <i class="ri-bootstrap-fill text-6xl lg:text-9xl text-primary text-center group-hover:animate-bounce group-hover:text-mywhite transition-all group-hover:ease-in-out duration-700"></i>
+                </div>
+                <h3 class="text-center text-lg text-primary font-lato font-semibold mt-4 md:text-xl">Bootstrap</h3>
+                <p class="text-center text-base font-lato font-light">Basic</p>
+              </div>
+              <div class="flex justify-center flex-col items-center">
+                <div class="border-2 border-primary size-max flex p-5 rounded-lg group hover:bg-primary hover:scale-90 cursor-pointer transition-all hover:ease-in-out duration-700">
+                  <i class="ri-tailwind-css-fill text-6xl lg:text-9xl text-primary text-center group-hover:animate-spin group-hover:text-mywhite transition-all group-hover:ease-in-out duration-700"></i>
+                </div>
+                <h3 class="text-center text-lg text-primary font-lato font-semibold mt-4 md:text-xl">Tailwind CSS</h3>
+                <p class="text-center text-base font-lato font-light">Basic</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service" class="mt-20 mb-10">
+        <div class="container">
+          <div class="contentService">
+            <h2 class="text-center font-lato text-2xl my-5 md:text-3xl">Services</h2>
+            <div class="flex flex-col gap-10 items-center md:flex-row md:gap-0">
+              <div class="wd text-center w-4/5 md:flex md:flex-col md:items-center">
+                <i class="ri-window-fill text-9xl lg:text-[10rem] lg:border-2 lg:border-primary lg:p-8 lg:rounded-full lg:hover:bg-primary lg:hover:text-semiMywhite lg:mb-3 lg:duration-700 text-primary"></i>
+                <h3 class="font-semibold font-lato text-lg md:text-xl text-primary">Web Development</h3>
+                <p class="font-light font-lato text-sm md:w-4/5 md:text-base">Make a strong first impression with a professional website that is responsive and user-friendly.</p>
+              </div>
+              <div class="lp text-center w-4/5 md:flex md:flex-col md:items-center">
+                <i class="ri-pages-fill text-9xl lg:text-[10rem] lg:border-2 lg:border-primary lg:p-8 lg:rounded-full lg:hover:bg-primary lg:hover:text-semiMywhite lg:mb-3 lg:duration-700 text-primary"></i>
+                <h3 class="font-semibold font-lato text-lg md:text-xl text-primary">Landing Page Design</h3>
+                <p class="font-light font-lato text-sm md:w-4/5 md:text-base">Modern landing page design solutions to strengthen brands and create real digital impact.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="mt-20 mb-10">
+        <div class="container">
+          <div class="contentContact">
+            <h2 class="text-center font-lato text-2xl my-5 md:text-3xl">Contact Me</h2>
+            <div class="flex flex-col w-4/5 mx-auto md:w-3/5">
+              <div class="imgContact mb-2 lg:mx-auto">
+                <img src="src/img/img3.jpeg" alt="imgContact" class="lg:w-[200px] lg:rounded-full" />
+              </div>
+              <div class="lg:flex lg:gap-5 lg:flex-col lg:items-center">
+                <span class="font-lato flex text-center mb-3 md:text-lg text-primary">Have a question or project you'd like to talk about? Send me a message, and let's start a discussion about your project.</span>
+                <div class="lg:flex lg:gap-5">
+                  <div class="flex gap-2">
+                    <p class="border-b flex gap-2 border-primary font-lato text-sm font-light md:text-base cursor-pointer relative group">
+                      febrianusarif19@gmail.com <i class="ri-mail-line hover:text-white group-hover:animate-bounce transition-all duration-100 ease-in-out"></i>
+                    </p>
+                  </div>
+                  <div class="flex gap-2">
+                    <p class="border-b flex gap-2 border-primary font-lato text-sm font-light md:text-base cursor-pointer relative group">
+                      082289522036 <i class="ri-phone-line ri-mail-line hover:text-white group-hover:animate-wiggle transition-all duration-100 ease-in-out"></i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="relative w-full">
+              <div class="flex justify-end w-full lg:justify-center">
+                <form action="" id="emailForm" class="w-4/5 md:w-3/5 lg:w-1/2 p-7 my-10 font-lato border-y-2 border-l-2 rounded-s-3xl border-primary text-primary bg-blue backdrop-blur flex flex-col gap-4 lg:border-[1.5px] lg:rounded-xl">
+                  <div class="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-32">
+                    <div class="flex flex-col gap-2">
+                      <label for="name">Full Name</label>
+                      <input class="bg-transparent border-b-[1.5px] border-primary outline-none px-2" type="text" id="name" name="user_name" required />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                      <label for="email">Email</label>
+                      <input class="bg-transparent border-b-[1.5px] border-primary outline-none px-2" type="email" id="email" name="user_email" required />
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-32">
+                    <div class="flex flex-col gap-2">
+                      <label for="subject">Subject</label>
+                      <input class="bg-transparent border-b-[1.5px] border-primary outline-none px-2" type="text" id="subject" name="user_subject" required />
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <label for="message">Message</label>
+                    <textarea class="bg-transparent border-[1.5px] border-primary outline-none px-3 py-2 resize-none rounded-lg" id="message" rows="5" name="user_message" required></textarea>
+                  </div>
+                  <div class="relative flex flex-col gap-2 mt-5 lg:items-end">
+                    <button
+                      type="submit"
+                      class="bg-[#dfcdb7] w-full p-2 border-[1.5px] border-primary rounded-full font-semibold shadow-sm flex justify-center gap-1 hover:bg-bodyColor hover:shadow-mywhite group transition-all duration-500 ease-in-out lg:w-2/5"
+                    >
+                      Send<i class="ri-send-plane-2-fill group-hover:animate-move"></i>
+                    </button>
+                    <p class="pesan text-mywhite font-bold text-xs absolute -bottom-5 right-3" id="pesan"></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-blue">
+      <div class="container">
+        <div class="md:grid md:grid-cols-2 md:items-end">
+          <div class="info p-10 font-lato">
+            <h2 class="font-dancing font-extrabold text-5xl lg:text-7xl">Miracle.</h2>
+            <p class="font-light lg:text-xl">febrianusarif19@gmail.com</p>
+            <p class="font-light lg:text-base">
+              Lubug Begalung, Padang <br />
+              Indonesia.
+            </p>
+          </div>
+          <div class="link flex flex-col gap-1 items-center font-lato my-5 md:grid md:grid-cols-3 md:h-fit md:py-10 md:m-0 md:gap-5">
+            <a href="#hero" class="w-full text-center bg-[rgba(255,255,255,.5)] py-2 text-primary md:bg-blue md:border-b-2 lg:hover:text-bodyColor lg:hover:border-primary transition duration-700 ease-in-out">Home</a>
+            <a href="#about" class="w-full text-center bg-[rgba(255,255,255,.5)] py-2 text-primary md:bg-blue md:border-b-2 lg:hover:text-bodyColor lg:hover:border-primary transition duration-700 ease-in-out">About</a>
+            <a href="#portofolio" class="w-full text-center bg-[rgba(255,255,255,.5)] py-2 text-primary md:bg-blue md:border-b-2 lg:hover:text-bodyColor lg:hover:border-primary transition duration-700 ease-in-out">Portofolio</a>
+            <a href="#skills" class="w-full text-center bg-[rgba(255,255,255,.5)] py-2 text-primary md:bg-blue md:border-b-2 lg:hover:text-bodyColor lg:hover:border-primary transition duration-700 ease-in-out">Skills</a>
+            <a href="#service" class="w-full text-center bg-[rgba(255,255,255,.5)] py-2 text-primary md:bg-blue md:border-b-2 lg:hover:text-bodyColor lg:hover:border-primary transition duration-700 ease-in-out">Service</a>
+            <a href="#contact" class="w-full text-center bg-[rgba(255,255,255,.5)] py-2 text-primary md:bg-blue md:border-b-2 lg:hover:text-bodyColor lg:hover:border-primary transition duration-700 ease-in-out">Contact</a>
+          </div>
+        </div>
+        <div class="medsos py-5">
+          <div class="icon flex gap-3 justify-center border-t pt-5 border-slate-500">
+            <a href="https://www.linkedin.com/in/febrianusarifmlaia/" target="_blank" class=""><i class="ri-linkedin-box-line text-2xl text-slate-600 lg:hover:text-bodyColor transition duration-700 ease-in-out"></i></a>
+            <a href="https://www.instagram.com/arlaaa_19/" target="_blank" class=""><i class="ri-instagram-line text-2xl text-slate-600 lg:hover:text-bodyColor transition duration-700 ease-in-out"></i></a>
+            <a href="https://github.com/arla-miracle" target="_blank" class=""><i class="ri-github-line text-2xl text-slate-600 lg:hover:text-bodyColor transition duration-700 ease-in-out"></i></a>
+          </div>
+          <p class="font-dancing text-center font-extrabold text-lg mb-3 text-slate-600">
+            Created by <span class="text-bodyColor">Arla</span> using
+            <span class="text-bodyColor">tailwind<br />CSS</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+    <!-- email js -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="./src/js/email.js"></script>
+  </body>
+</html>
