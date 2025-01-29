@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet" />
 
+    <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body class="bg-bodyColor">
@@ -58,7 +59,7 @@
               <h3 class="text-4xl mb-5 font-lato text-primary">Hi, I'm Arla</h3>
               <p class="mb-9 font-lato font-light text-primary lg:mb-5">Frontend Developer from Indonesia</p>
               <a
-                href="src/pdf/CV Febrianus Arif en.pdf"
+                href="src/pdf/CV Febrianus Arif Munadar Laia.pdf"
                 download=""
                 target="_blank"
                 class="hidden lg:block lg:font-lato lg:text-sm lg:font-semibold lg:bg-blue lg:text-mywhite lg:py-1 lg:px-4 lg:w-fit lg:border-[1.5px] lg:border-blue lg:shadow-md lg:hover:shadow-secondary lg:rounded-full lg:hover:bg-secondary lg:hover:border-mywhite lg:hover:text-mywhite lg:transition-all lg:duration-700"
@@ -312,41 +313,6 @@
 
     <script src="./src/js/email.js"></script>
 
-    <script>
-      ScrollReveal({
-        reset: true,
-        distance: "60px",
-        duration: 1500,
-        delay: 400,
-      });
-      // nav
-      ScrollReveal().reveal(".container-nav", { delay: 200, origin: "top" });
-
-      // hero
-      ScrollReveal().reveal(".heroImg", { delay: 200, origin: "left" });
-      ScrollReveal().reveal(".desc", { delay: 210, origin: "top" });
-      ScrollReveal().reveal(".socialMedia", { delay: 220, origin: "bottom" });
-      // about
-      ScrollReveal().reveal(".imgSide", { delay: 200, origin: "left" });
-      ScrollReveal().reveal(".contentAbout", { delay: 200, origin: "top" });
-      // porto
-      ScrollReveal().reveal(".h2p", { delay: 400, origin: "left" });
-      ScrollReveal().reveal(".card", { delay: 200, origin: "top", easing: "ease-in", interval: 200, scale: ".95" });
-      // skill
-      ScrollReveal().reveal(".h2My", { delay: 400, origin: "left" });
-      ScrollReveal().reveal(".cardSkill", { delay: 200, easing: "ease-in", interval: 200, scale: ".95" });
-      // service
-      ScrollReveal().reveal(".h2s", { delay: 200, origin: "left" });
-      ScrollReveal().reveal(".wd", { delay: 200, origin: "top" });
-      ScrollReveal().reveal(".lp", { delay: 200, origin: "bottom" });
-      // contact
-      ScrollReveal().reveal(".h2c", { delay: 200, origin: "left" });
-      ScrollReveal().reveal(".contentC1", { delay: 200, origin: "top" });
-      ScrollReveal().reveal(".contentC2", { delay: 200, origin: "bottom" });
-      // footer
-      ScrollReveal().reveal(".info", { delay: 200, origin: "left" });
-      ScrollReveal().reveal(".link", { delay: 200, origin: "bottom" });
-      ScrollReveal().reveal(".medsos", { delay: 200, origin: "top" });
-    </script>
+    <script src="src/js/scrollEffect.js"></script>
   </body>
 </html>
